@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday My Love</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div class="login-page" id="loginPage">
+  
+  <div class="login-box">
+
+    <h1>Welcome Love ❤️</h1>
+
+    <p>Masukkan nama pasangan kamu</p>
+
+    <input type="text" id="nameInput" placeholder="Contoh: Sayangkuu">
+
+    <button onclick="login()">
+      Masuk
+    </button>
+
+  </div>
+
+</div>
+
+<!-- MAIN -->
+<div class="main" id="mainContent">
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h2>
+        Happy Birthday 
+        <span id="partnerName"></span> 🎂
+      </h2>
+
+      <p>
+        Hari ini adalah hari spesial karena seseorang terbaik dalam hidupku lahir ke dunia ❤️
+      </p>
+
+      <button class="btn" onclick="showMessage()">
+        Buka Pesan Spesial 💌
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- SURAT -->
+  <section class="letter" id="messageSection">
+
+    <div class="letter-box">
+
+      <h3>Untuk Kamu ❤️</h3>
+
+      <p>
+        Selamat ulang tahun sayang...
+        Semoga semua hal baik selalu datang ke hidup kamu.
+        Terima kasih sudah hadir dan selalu ada sampai sekarang.
+      </p>
+
+      <br>
+
+      <p>
+        Aku mungkin bukan yang sempurna,
+        tapi aku akan selalu berusaha menjadi yang terbaik buat kamu ❤️
+      </p>
+
+      <br>
+
+      <p>
+        I Love You More Than Anything ✨
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- GALERI -->
+  <section class="gallery">
+
+    <h2>Our Memories 📸</h2>
+
+    <div class="photos">
+
+      <!-- GANTI FOTO -->
+      <img src="foto1.jpg">
+      <img src="foto2.jpg">
+      <img src="foto3.jpg">
+      <img src="foto4.jpg">
+
+    </div>
+
+  </section>
+
+  <!-- MUSIC -->
+  <section class="music">
+
+    <h2>Lagu Untuk Kamu 🎶</h2>
+
+    <audio controls autoplay loop>
+      <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
+
+  </section>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    Dibuat dengan penuh cinta ❤️
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
